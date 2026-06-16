@@ -1,5 +1,13 @@
-const scene = document.querySelector(".door-scene");
+const scene = document.querySelector(".door-link");
 
-scene.addEventListener("click", () => {
-scene.classList.add("open");
+scene.addEventListener("click", (e) => {
+
+  e.preventDefault();
+
+  scene.classList.add("open");
+
+  setTimeout(() => {
+    location.href = "./main.html";
+  }, 3000);
+
 });
