@@ -128,3 +128,35 @@
     }
 
 }
+
+/* メインページのフェードイン */
+/* フェードインの設定 */
+.fade-in{
+    position:fixed;
+
+    top:0;
+    left:0;
+
+    width:100vw;
+    height:100vh;
+
+    background:white;
+
+    z-index:9999;
+
+    pointer-events:none;
+
+    animation:fadeIn 0.8s ease forwards;
+}
+
+@keyframes fadeIn{
+
+    from{
+        opacity:1;
+    }
+
+    to{
+        opacity:0;
+    }
+
+}
