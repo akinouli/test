@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-/* 背景画像の設定 */
+/* 全体設定 */
 html,
 body{
     margin:0;
@@ -17,15 +17,16 @@ body{
     height:100dvh;
 
     background-image:url("../img/coshion/background.png");
-    @media (max-width:768px){
-        .opening{
-            background-image:url("../img/coshion/background_s.png");
-        }
-    }
     background-size:cover;
     background-position:center;
     background-repeat:no-repeat;
 }
+
+@media (max-width:768px){
+        .opening{
+            background-image:url("../img/coshion/background_s.png");
+        }
+    }
 
 /* 扉のフィールド設定 --- レスポンシブ対応 */
 .door-link{
