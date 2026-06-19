@@ -7,7 +7,7 @@ scene.addEventListener("click", (e) => {
   scene.classList.add("open");
 
   setTimeout(() => {
-    location.href = "./main.html";
+    location.href = "./home.html";
   }, 3000);
 
 });
