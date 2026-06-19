@@ -4,18 +4,20 @@
 body{
     margin:0;
     padding:0;
-    background-image:url("../img/coshion/background.png");
-    background-size:cover;
-    background-position:center;
+    overflow:hidden;
 }
 
 /* クッションページ全体の設定 */
 .opening{
     position:relative;
+    margin:auto;
     width:100vw;
     height:100vh;
-    overflow:hidden;
-    margin:auto;
+
+    background-image:url("../img/coshion/background.png");
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
 }
 
 /* 扉のフィールド設定 --- レスポンシブ対応 */
