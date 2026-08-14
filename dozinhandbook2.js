@@ -54345,6 +54345,7 @@
             empty() {
                 this.load("", [[0]], .001)
             }
+            
             setMediaElement(e) {
                 this.unsubscribePlayerEvents(),
                 super.setMediaElement(e),
